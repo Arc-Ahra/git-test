@@ -1,0 +1,72 @@
+#  기본 빌드 출력 
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+#  Visual Studio 캐시 
+.vs/
+.vscode/
+
+#  사용자 환경 파일 
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.userprefs
+
+#  백업/임시 파일 
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+*.cache
+*.ilk
+*.ncb
+*.aps
+
+#  패키지 
+*.nupkg
+*.snupkg
+packages/
+*.ide/
+*.nuget/
+.nuget/
+
+#  Resharper / Rider 
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+#  Test 관련 
+TestResults/
+*.testsettings
+*.vsmdi
+*.trx
+
+#  Publish 
+publish/
+app.publish/
+
+#  Auto-generated files 
+*.g.cs
+*.g.i.cs
+Generated/
+
+#  기타 Windows 파일 
+Thumbs.db
+Desktop.ini
+
+#  Entity Framework Migrations 제외하고 싶은 경우 
+# Migrations/
+
+#  환경변수/시크릿 
+*.env
+*.secret
+*.key
+*.pfx

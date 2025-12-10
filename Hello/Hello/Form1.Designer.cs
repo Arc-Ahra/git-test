@@ -34,12 +34,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("굴림", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(216, 147);
+            this.label1.Location = new System.Drawing.Point(352, 162);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(358, 64);
+            this.label1.Size = new System.Drawing.Size(38, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "hello world";
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
